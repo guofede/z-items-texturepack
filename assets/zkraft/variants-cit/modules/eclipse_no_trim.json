@@ -1,5 +1,5 @@
 {
-	"items": ["netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots", "leather_leggings"],
+	"items": ["netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots", "leather_leggings", "leather_helmet", "leather_chestplate"],
 	"hook": "trim_pattern",
 	"type": "predicates",
 	"modelList": {
@@ -10,7 +10,7 @@
 			{
 				"variantId": "zkraft:no_trim",
 				"precondition": {
-					"custom_name": { "regex": "(Elmo|Corazza|Gambali|Stivali) (Eclipse|di Dream|di Aragon).*" }
+					"custom_name": { "regex": "(Elmo|Corazza|Gambali|Stivali) (Eclipse|di Dream|di Aragon).*|Cappello della Befana.*|Tunica della Befana.*" }
 				}
 			}
 		]

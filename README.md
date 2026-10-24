@@ -53,7 +53,8 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Corazza / Gambali / Stivali Eclipse | netherite (corazza, gambali, stivali) |
 | Corazza di Gellir | netherite_chestplate |
 | Stivali di Cleopatra | golden_boots |
-| Cappello della Befana | leather_helmet |
+| Cappello della Befana (3D anche indossato, con EMF) | leather_helmet |
+| Tunica della Befana | leather_chestplate |
 | Ali del Drago, Ali di Eolo | elytra |
 
 ### Spade, pugnali e spadoni
