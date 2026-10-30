@@ -1,7 +1,0 @@
-# Claude Code skill and local tooling, not part of the resource pack
-.claude/
-
-# OS junk
-Thumbs.db
-desktop.ini
-.DS_Store
