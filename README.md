@@ -16,16 +16,14 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 
 ## Installazione
 
-1. In alto su questa pagina clicca **Code → Download ZIP**.
-2. Estrai lo ZIP: dentro c'è la cartella `z-items-texturepack-main`.
-3. Sposta **la cartella** (non lo ZIP) in `.minecraft/resourcepacks/`.
-   Controlla che dentro ci siano direttamente `pack.mcmeta` e `assets`.
-4. In gioco: **Opzioni → Pacchetti risorse** e attiva *Zkraft*.
+1. Scarica **[zkraft.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft.zip)**
+   (è sempre l'ultima versione).
+2. Metti lo ZIP **così com'è** in `.minecraft/resourcepacks/`: non serve estrarlo.
+3. In gioco: **Opzioni → Pacchetti risorse** e attiva *zkraft.zip*.
    Se usi altri pack che cambiano armi o armature, metti zKraft **sopra** di loro.
-5. Dopo un aggiornamento del pack premi **F3+T** per ricaricarlo senza riavviare.
+4. Per aggiornare, scarica di nuovo lo ZIP, sostituisci quello vecchio e premi **F3+T** in gioco.
 
-> Il download ZIP di GitHub mette tutto dentro una sottocartella: se metti lo ZIP così com'è in `resourcepacks`,
-> Minecraft non lo riconosce. Usa la cartella estratta.
+> Non usare **Code → Download ZIP** di GitHub: mette tutto dentro una sottocartella e Minecraft non lo riconosce.
 
 ## Come funziona
 

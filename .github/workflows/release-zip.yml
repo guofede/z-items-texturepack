@@ -1,0 +1,29 @@
+# Builds zkraft.zip with pack.mcmeta at the root (usable in resourcepacks/ without extracting)
+# and uploads it to the "pack" release on every push to main.
+name: Pack zip
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build zip
+        run: zip -r -q zkraft.zip pack.mcmeta pack.png assets
+
+      - name: Publish release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view pack >/dev/null 2>&1 || \
+            gh release create pack --title "zKraft pack" \
+              --notes "Scarica zkraft.zip e mettilo così com'è in .minecraft/resourcepacks/ (non serve estrarlo)."
+          gh release upload pack zkraft.zip --clobber
