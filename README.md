@@ -1,3 +1,5 @@
+![zKraft](.github/copertina.png)
+
 # zKraft – Texture pack degli item
 
 Resource pack del server Minecraft **zKraft** (`mc.zkraft.net`): armi, armature, scudi e oggetti custom con
