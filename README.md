@@ -38,7 +38,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 - **Teste di player** (es. *Apocalisse*): il modello si vede in mano, nell'inventario e per terra; indossate
   mostrano sempre la skin della testa (limite di Minecraft).
 - Alcuni item sono **animati** (Amuleto di Silent Hill, Satanic, Zanna del Sangue Versato, Senza Tempo per
-  Spiegare, Illusio, le radio…).
+  Spiegare, Illusio, Talismano delle tre virtù, le radio…).
 
 ## Elenco degli item
 
@@ -70,7 +70,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Castigo, Condanna Eterna, Fine della Misericordia, Picco Glaciale | diamond_sword |
 | Pugnale del Faraone Ramses, Pungiglione di Gaia, Satanic, Sciabola d'Abbordaggio, Spadone del Colosso Dormiente, Viperia | golden_sword |
 | Onyx del Vuoto | stone_sword |
-| Croce del Deserto, Delirium, Excalibur, Ferrum Aeternum, Furia, GingerBeard, Giudizio del Mietitore, Gladius Imperatoris, L'Ira di Dreamweaver, Lama degli Spiriti Antichi, Lama del Faraone, Lama di Marte, Oblivion, Onirica, Ordine Supremo, PhantomLight, Pugio, Pugnale di Cleopatra, Redenzione Perduta, Scacciafantasmi, Scorpione, Secutor, Setekh, Sogno di Alessandria, Spezza Fato, Vindicta, Zanna del Sangue Versato, Zanna di Anubi | netherite_sword |
+| Croce del Deserto, Delirium, Excalibur, Ferrum Aeternum, Frattura dell'Unità, Furia, GingerBeard, Giudizio del Mietitore, Gladius Imperatoris, Ira del Colosso, L'Ira di Dreamweaver, Lama degli Spiriti Antichi, Lama del Faraone, Lama di Marte, Oblivion, Onirica, Ordine Supremo, PhantomLight, Pugio, Pugnale di Cleopatra, Redenzione Perduta, Scacciafantasmi, Scorpione, Secutor, Setekh, Sogno di Alessandria, Spezza Fato, Vindicta, Zanna del Sangue Versato, Zanna di Anubi | netherite_sword |
 | Bisturi Arrugginito | shears |
 | Apocalisse (stocco 3D) | player_head |
 
@@ -78,8 +78,8 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 
 | Nome | Item base |
 |---|---|
-| Ascia della Sabbia Eterna, Chimera, Decollator, Grande Ascia dell'Inferno, Schiaccia Carne | netherite_axe |
-| Decapitatrice, Guardiano delle Ombre | diamond_axe |
+| Ascia del Paradosso, Ascia della Sabbia Eterna, Chimera, Decollator, Grande Ascia dell'Inferno, Schiaccia Carne (martello 3D) | netherite_axe |
+| Decapitatrice, Guardiano delle Ombre (martello 3D) | diamond_axe |
 | Falce Faraonica | golden_axe |
 | Falce del Mietitore | iron_hoe |
 | Falce di Pyramid | netherite_hoe |
@@ -94,7 +94,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 
 ### Scudi
 
-Custode della Cripta, Presagio Rosso, Scudo del Sole Infranto, Scudo della Legione, Scudo di Cleopatra,
+Custode della Cripta, Egida del Colosso, Presagio Rosso, Scudo del Sole Infranto, Scudo della Legione, Scudo di Cleopatra,
 Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 
 ### Staffe e armi speciali
@@ -117,6 +117,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Amuleto di Silent Hill | clock |
 | Talismano da Guerra | goat_horn |
 | Talismano della Difesa | shield |
+| Talismano delle tre virtù | respawn_anchor |
 | Radio Disturbata | recovery_compass |
 | Radio di Temu | compass |
 | Camera | spyglass |
@@ -144,6 +145,6 @@ texture=nomeitem
 ```
 
 - L'asterisco va solo **alla fine** del nome.
-- Per gli item senza una texture unica (orologio, bussola, teste di player) o per i modelli 3D serve anche
+- Per gli item senza una texture unica (orologio, bussola, teste di player, blocchi come il respawn anchor) o per i modelli 3D serve anche
   `model=<file .json>`.
 - Le texture animate sono una striscia verticale di fotogrammi con un file `.png.mcmeta` accanto.
