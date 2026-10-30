@@ -10,7 +10,7 @@
 			{
 				"variantId": "zkraft:no_trim",
 				"precondition": {
-					"custom_name": { "regex": "(Elmo|Corazza|Gambali|Stivali) (Eclipse|di Dream|di Aragon|di Caligola|di Anubi).*|Cappello della Befana.*|Tunica della Befana.*" }
+					"custom_name": { "regex": "(Elmo|Corazza|Gambali|Stivali) (Eclipse|di Dream|di Aragon|di Caligola|di Anubi|della Convergenza).*|Cappello della Befana.*|Tunica della Befana.*" }
 				}
 			}
 		]

@@ -14,7 +14,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 |---|---|---|
 | [CIT Resewn](https://modrinth.com/mod/cit-resewn) (continuation fork per 1.21.11) | Texture e modelli degli item in base al nome | Sì |
 | [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse indossata | No (senza, la corazza resta piatta) |
-| [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola e Anubi | No (senza, il trim si vede sopra l'armatura) |
+| [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi e Convergenza | No (senza, il trim si vede sopra l'armatura) |
 
 ## Installazione
 
@@ -57,6 +57,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Gambali di Caligola | netherite_leggings |
 | Corazza / Stivali di Anubi | netherite_chestplate / netherite_boots |
 | Gambali di Anubi | golden_leggings |
+| Corazza / Gambali / Stivali della Convergenza | netherite (corazza, gambali, stivali) |
 | Cappello della Befana (3D anche indossato, con EMF) | leather_helmet |
 | Tunica della Befana | leather_chestplate |
 | Ali del Drago, Ali di Eolo | elytra |
