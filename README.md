@@ -39,7 +39,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 - **Teste di player** (es. *Apocalisse*): il modello si vede in mano, nell'inventario e per terra; indossate
   mostrano sempre la skin della testa (limite di Minecraft).
 - Alcuni item sono **animati** (Amuleto di Silent Hill, Satanic, Zanna del Sangue Versato, Senza Tempo per
-  Spiegare, Illusio, Talismano delle tre virtù, le radio…).
+  Spiegare, Illusio, Talismano delle tre virtù, Chiave IcyBlue Crates, le radio…).
 
 ## Elenco degli item
 
@@ -130,6 +130,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Chiave End | prismarine_shard |
 | Chiave Guerriero | brown_dye, prismarine_shard |
 | Chiave Halloween | fermented_spider_eye |
+| Chiave IcyBlue Crates (3D, animata) | prismarine_shard |
 | Chiave Nether | prismarine_shard |
 | Chiave Spawner | blue_dye, prismarine_shard |
 | Chiave Supremo | purple_dye, prismarine_shard |
