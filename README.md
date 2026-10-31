@@ -128,6 +128,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Chiave Claim | yellow_dye, prismarine_shard |
 | Chiave End | prismarine_shard |
 | Chiave Guerriero | brown_dye, prismarine_shard |
+| Chiave Halloween | fermented_spider_eye |
 | Chiave Nether | prismarine_shard |
 | Chiave Spawner | blue_dye, prismarine_shard |
 | Chiave Supremo | purple_dye, prismarine_shard |
