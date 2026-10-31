@@ -124,7 +124,15 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Piccone di Enlin | golden_pickaxe |
 | Pietracciaio | iron_ingot |
 | Pietralama | ghast_tear |
-| Chiavi (Artefatto, Claim, Guerriero, Nether, Spawner, VIP, Voto, Supremo) — ora coloranti "(Crates)" | qualsiasi colorante (+ prismarine_shard per le vecchie) |
+| Chiave Artefatto | cyan_dye, prismarine_shard |
+| Chiave Claim | yellow_dye, prismarine_shard |
+| Chiave End | prismarine_shard |
+| Chiave Guerriero | brown_dye, prismarine_shard |
+| Chiave Nether | prismarine_shard |
+| Chiave Spawner | blue_dye, prismarine_shard |
+| Chiave Supremo | purple_dye, prismarine_shard |
+| Chiave VIP | qualsiasi colorante, prismarine_shard |
+| Chiave Voto | prismarine_shard |
 | Chiave Dungeon | red_dye |
 
 ## Struttura del pack (per chi ci lavora)
