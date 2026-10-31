@@ -8,6 +8,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 ## Requisiti
 
 - **Minecraft Java 1.21.11** con **Fabric Loader** e **Fabric API**
+  (il pack si attiva senza avvisi da 1.21.9 a 1.21.11; è provato solo su 1.21.11)
 - Mod lato client:
 
 | Mod | A cosa serve | Obbligatoria |
