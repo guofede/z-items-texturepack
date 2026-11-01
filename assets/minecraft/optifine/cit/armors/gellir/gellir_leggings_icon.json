@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "./gellir_empty_icon",
+    "layer1": "./gellir_leggings"
+  }
+}
