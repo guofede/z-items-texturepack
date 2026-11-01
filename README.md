@@ -8,7 +8,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 ## Requisiti
 
 - **Minecraft Java 1.21.11** con **Fabric Loader** e **Fabric API**
-  (provato su 1.21.11; per **1.21.8**, ad esempio NoRisk Client, c'è uno ZIP a parte, vedi Installazione,
+  (provato su 1.21.11; per **1.21.8** c'è uno ZIP a parte, vedi Installazione,
   e serve la versione di CIT Resewn per 1.21.8)
 - Mod lato client:
 
@@ -22,7 +22,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 
 1. Scarica **[zkraft.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft.zip)**
    (è sempre l'ultima versione).
-   Su **1.21.8** (es. NoRisk Client) scarica invece
+   Su **1.21.8** scarica invece
    **[zkraft-1.21.8.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft-1.21.8.zip)**:
    è lo stesso pack senza i modelli 3D EMF (spuntoni Eclipse, cappello della Befana), che su 1.21.8 danno blocchi glitchati.
 2. Metti lo ZIP **così com'è** in `.minecraft/resourcepacks/`: non serve estrarlo.
