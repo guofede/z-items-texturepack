@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "./centurione_empty_icon",
+    "layer1": "./centurione_boots"
+  }
+}

@@ -15,7 +15,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 |---|---|---|
 | [CIT Resewn](https://modrinth.com/mod/cit-resewn) (continuation fork per 1.21.11) | Texture e modelli degli item in base al nome | Sì |
 | [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse indossata | No (senza, la corazza resta piatta) |
-| [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos, Soffio Vitale, Cleopatra, Pyramid, Infermiera e Valtiel | No (senza, il trim si vede sopra l'armatura) |
+| [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos, Soffio Vitale, Cleopatra, Pyramid, Infermiera, Valtiel e i set romani (Gladiatore, Legionario, Centurione, Tribuno, Legatus, Imperatore) | No (senza, il trim si vede sopra l'armatura) |
 
 ## Installazione
 
@@ -66,9 +66,18 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Corazza / Gambali / Stivali di Pyramid | leather (corazza, gambali, stivali; la tintura non li colora) |
 | Camice / Grembiule / Scarpe dell'Infermiera | ferro (corazza, gambali, stivali) |
 | Corazza / Gambali / Stivali di Valtiel | netherite (corazza, gambali, stivali) |
+| Corazza / Gambali / Stivali del Gladiatore | leather (la tintura non li colora) |
+| Corazza / Gambali Legionario | iron_chestplate / iron_leggings |
+| Stivali Legionario | leather_boots (la tintura non li colora) |
+| Corazza Centurione | chainmail_chestplate |
+| Gambali Centurione | iron_leggings |
+| Stivali Centurione | leather_boots (la tintura non li colora) |
+| Corazza / Gambali / Stivali Tribuno | diamond (corazza, gambali, stivali) |
+| Corazza / Gambali / Stivali Legatus | netherite (corazza, gambali, stivali) |
+| Corazza / Gambali / Stivali dell'Imperatore | oro (corazza, gambali, stivali) |
 | Cappello della Befana (3D anche indossato, con EMF) | leather_helmet |
 | Tunica della Befana | leather_chestplate |
-| Ali del Drago, Ali di Eolo | elytra |
+| Ali del Drago, Ali di Eolo, Ali di Odino | elytra |
 
 ### Spade, pugnali e spadoni
 
