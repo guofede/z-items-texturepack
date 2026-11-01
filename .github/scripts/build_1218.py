@@ -32,18 +32,9 @@ for folder, _, files in os.walk(os.path.join(root, 'assets', 'minecraft', 'optif
             print('1.21.8 leather fix:', os.path.relpath(path, root))
 print(changed, 'files changed')
 
-# Befana hat: the flat no-EMF fallback + ETF variant (textures.1=2) works on 1.21.11 but showed raw textures on
-# 1.21.8, so there use the atlas-only texture directly (the state confirmed on 1.21.8) and drop the ETF rule.
-befana = os.path.join(root, 'assets', 'minecraft', 'optifine', 'cit', 'armors', 'befana_helmet')
-props = os.path.join(befana, 'befana_helmet_worn.properties')
-if os.path.exists(os.path.join(befana, 'befana_worn_overlay2.png')) and os.path.exists(props):
-    text = open(props, encoding='utf-8').read()
-    text = re.sub(r'^(texture\.leather_layer_1(?:_overlay)?=).*$', r'\1befana_worn_overlay2.png', text, flags=re.M)
-    open(props, 'w', encoding='utf-8', newline='').write(text)
-    etf = os.path.join(befana, 'befana_worn_overlay.properties')
-    if os.path.exists(etf):
-        os.remove(etf)
-    print('1.21.8 befana: atlas-only texture, no ETF variant')
+# Befana hat textures + their ETF variant file live in textures/zkraft/befana/, outside optifine/cit: CitFancy reads
+# every .properties under optifine/cit as a CIT (an ETF file there gave every item the hat texture), so never put
+# non-CIT .properties back in there.
 
 # EMF: 1.21.9+ has one armor model per slot (player_helmet / _chestplate / _leggings / _boots), 1.21.8 only
 # player_outer_armor (helmet + chestplate + boots) and player_inner_armor (leggings). Merge whatever exists.
