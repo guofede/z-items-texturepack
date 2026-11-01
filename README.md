@@ -8,8 +8,8 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 ## Requisiti
 
 - **Minecraft Java 1.21.11** con **Fabric Loader** e **Fabric API**
-  (provato su 1.21.11; per **1.21.8** c'è uno ZIP a parte, vedi Installazione,
-  e serve la versione di CIT Resewn per 1.21.8)
+  (provato su 1.21.11; per **1.21.8** c'è uno ZIP a parte, vedi Installazione, da usare con
+  **CitFancy** al posto di CIT Resewn: la fork di CIT Resewn per 1.21.8 mostra blocchi glitchati)
 - Mod lato client:
 
 | Mod | A cosa serve | Obbligatoria |
@@ -24,7 +24,8 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
    (è sempre l'ultima versione).
    Su **1.21.8** scarica invece
    **[zkraft-1.21.8.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft-1.21.8.zip)**:
-   è lo stesso pack senza i modelli 3D EMF (spuntoni Eclipse, cappello della Befana), che su 1.21.8 danno blocchi glitchati.
+   è lo stesso pack adattato a CitFancy (le armature di cuoio possono avere una leggera tinta del cuoio)
+   e senza i modelli 3D EMF (spuntoni Eclipse, cappello della Befana).
 2. Metti lo ZIP **così com'è** in `.minecraft/resourcepacks/`: non serve estrarlo.
 3. In gioco: **Opzioni → Pacchetti risorse** e attiva *zkraft.zip*.
    Se usi altri pack che cambiano armi o armature, metti zKraft **sopra** di loro.
