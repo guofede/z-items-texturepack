@@ -161,7 +161,8 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 
 ```
 assets/minecraft/optifine/cit/<categoria>/<item>/   texture, modelli e .properties di ogni item
-assets/minecraft/emf/cem/                           modelli EMF (Corazza Eclipse 3D)
+overlay_1_21_9/assets/minecraft/emf/cem/            modelli EMF (Corazza Eclipse 3D, cappello Befana);
+                                                    nell'overlay solo per 1.21.9+, su 1.21.8 davano cubi glitchati
 assets/zkraft/variants-cit/modules/                 regole Variants CIT (trim nascosti)
 ```
 
