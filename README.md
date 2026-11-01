@@ -14,9 +14,20 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 
 | Mod | A cosa serve | Obbligatoria |
 |---|---|---|
-| [CIT Resewn](https://modrinth.com/mod/cit-resewn) (continuation fork per 1.21.11) | Texture e modelli degli item in base al nome | Sì |
+| [CIT Resewn fork](https://modrinth.com/mod/cit-resewn-fork) su 1.21.11, [CitFancy](https://modrinth.com/mod/citfancy) su 1.21.8 | Texture e modelli degli item in base al nome | Sì |
 | [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse e Cappello della Befana 3D indossati | No (senza, la corazza resta piatta e il cappello diventa un cappello piatto sull'elmo) |
 | [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos, Soffio Vitale, Cleopatra, Pyramid, Infermiera, Valtiel e i set romani (Gladiatore, Legionario, Centurione, Tribuno, Legatus, Imperatore) e Gellir | No (senza, il trim si vede sopra l'armatura) |
+
+### Versioni testate
+
+Il pack è stato provato in gioco con queste versioni esatte delle mod:
+
+| Minecraft | ZIP | Mod |
+|---|---|---|
+| 1.21.11 | `zkraft.zip` | [CIT Resewn fork 1.0](https://modrinth.com/mod/cit-resewn-fork/version/3bjfw6Xx), [Variants CIT 5.5.0+1.21.9](https://modrinth.com/mod/variants-cit/version/tSXo271z), [EMF 3.2.4](https://modrinth.com/mod/entity-model-features/version/CWZPvNbk), [ETF 7.1](https://modrinth.com/mod/entitytexturefeatures/version/rAQimlSn) |
+| 1.21.8 | `zkraft-1.21.8.zip` | [CitFancy v2-1.21.8](https://modrinth.com/mod/citfancy/version/l2XKjWY1), [EMF 3.2.4 (1.21.6–1.21.8)](https://modrinth.com/mod/entity-model-features/version/rPlvbW7d), [ETF 7.1 (1.21.6–1.21.8)](https://modrinth.com/mod/entitytexturefeatures/version/LhiABkEc) |
+
+Su 1.21.8 non usare la fork di CIT Resewn per 1.21.8: mostra blocchi glitchati.
 
 ## Installazione
 
