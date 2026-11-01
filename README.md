@@ -39,7 +39,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 - **Teste di player** (es. *Apocalisse*): il modello si vede in mano, nell'inventario e per terra; indossate
   mostrano sempre la skin della testa (limite di Minecraft).
 - Alcuni item sono **animati** (Amuleto di Silent Hill, Satanic, Zanna del Sangue Versato, Senza Tempo per
-  Spiegare, Illusio, Talismano delle tre virtù, Chiave IcyBlue Crates, le radio…).
+  Spiegare, Ramo della Vita, Emblema del Guaritore, Talismano delle tre virtù, Chiave IcyBlue Crates, le radio…).
 
 ## Elenco degli item
 
@@ -107,6 +107,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Nome | Item base |
 |---|---|
 | Illusio, Sussurro di Ra, Vox Sibyllae | netherite_hoe |
+| Ramo della Vita (3D, animato) | wooden_hoe |
 | Bastoncino di Zucchero, Big White Wand, Senza Tempo per Spiegare | blaze_rod |
 | Spara Ghiaccio | diamond_hoe |
 | Spara Ragnatele, Mangia Vuoto, Passatempo Cristallino | fishing_rod |
@@ -123,6 +124,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Talismano da Guerra | goat_horn |
 | Talismano della Difesa | shield |
 | Talismano delle tre virtù | respawn_anchor |
+| Emblema del Guaritore (animato) | emerald |
 | Radio Disturbata | recovery_compass |
 | Radio di Temu | compass |
 | Camera | spyglass |
