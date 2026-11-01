@@ -69,11 +69,11 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 
 | Nome | Item base |
 |---|---|
-| Absoluzione, Lama Natalizia, Sciabola del Titano, Spada di Cupido, Spada di Napoleone, Ultimo Ricordo, Yami no Hibiki | iron_sword |
+| Absoluzione, Lama Natalizia, Sciabola del Titano, Spada di Cupido, Spada di Napoleone, Spezzarealtà, Ultimo Ricordo, Yami no Hibiki | iron_sword |
 | Castigo, Condanna Eterna, Fine della Misericordia, Picco Glaciale | diamond_sword |
 | Pugnale del Faraone Ramses, Pungiglione di Gaia, Satanic, Sciabola d'Abbordaggio, Spadone del Colosso Dormiente, Viperia | golden_sword |
 | Onyx del Vuoto | stone_sword |
-| Croce del Deserto, Delirium, Excalibur, Ferrum Aeternum, Frattura dell'Unità, Furia, GingerBeard, Giudizio del Mietitore, Gladius Imperatoris, Ira del Colosso, L'Ira di Dreamweaver, Lama degli Spiriti Antichi, Lama del Faraone, Lama di Marte, Oblivion, Onirica, Ordine Supremo, PhantomLight, Pugio, Pugnale di Cleopatra, Redenzione Perduta, Scacciafantasmi, Scorpione, Secutor, Setekh, Sogno di Alessandria, Spezza Fato, Vindicta, Zanna del Sangue Versato, Zanna di Anubi | netherite_sword |
+| Croce del Deserto, Delirium, Excalibur, Fendente Oscuro, Ferrum Aeternum, Frattura dell'Unità, Furia, GingerBeard, Giudizio del Mietitore, Gladius Imperatoris, Ira del Colosso, L'Ira di Dreamweaver, Lama degli Spiriti Antichi, Lama del Faraone, Lama di Marte, Oblivion, Onirica, Ordine Supremo, PhantomLight, Pugio, Pugnale di Cleopatra, Redenzione Perduta, Scacciafantasmi, Scorpione, Secutor, Setekh, Sogno di Alessandria, Spezza Fato, Vindicta, Zanna del Sangue Versato, Zanna di Anubi | netherite_sword |
 | Bisturi Arrugginito | shears |
 | Apocalisse (stocco 3D) | player_head |
 
