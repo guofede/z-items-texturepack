@@ -32,27 +32,28 @@ for folder, _, files in os.walk(os.path.join(root, 'assets', 'minecraft', 'optif
             print('1.21.8 leather fix:', os.path.relpath(path, root))
 print(changed, 'files changed')
 
-# EMF: 1.21.9+ has one armor model per slot (player_helmet / player_chestplate), 1.21.8 only
-# player_outer_armor (helmet + chestplate + boots). Merge the helmet and chestplate jems into it.
+# EMF: 1.21.9+ has one armor model per slot (player_helmet / _chestplate / _leggings / _boots), 1.21.8 only
+# player_outer_armor (helmet + chestplate + boots) and player_inner_armor (leggings). Merge whatever exists.
 cem = os.path.join(root, 'assets', 'minecraft', 'emf', 'cem')
+TARGETS = {'outer_armor': ('helmet', 'chestplate', 'boots'), 'inner_armor': ('leggings',)}
 for prefix in ('player', 'player_slim'):
-    helmet = os.path.join(cem, prefix + '_helmet.jem')
-    chest = os.path.join(cem, prefix + '_chestplate.jem')
-    if not (os.path.exists(helmet) and os.path.exists(chest)):
-        continue
-    h, c = json.load(open(helmet, encoding='utf-8')), json.load(open(chest, encoding='utf-8'))
-    parts = {}
-    for m in h['models'] + c['models']:
-        if m['part'] in parts:                      # shared root: keep one copy, join the submodels
-            p = parts[m['part']]
-            p['submodels'] = p.get('submodels', []) + m.get('submodels', [])
-            p['boxes'] = p.get('boxes', []) + m.get('boxes', [])
-            if m.get('animations') and m['animations'] != p.get('animations'):
-                p['animations'] = p.get('animations', []) + m['animations']
-        else:
-            parts[m['part']] = dict(m)
-    merged = {'credit': 'zkraft - 1.21.8 outer armor (Befana hat + Eclipse spikes)', 'textureSize': h['textureSize'],
-              'models': list(parts.values())}
-    out = os.path.join(cem, prefix + '_outer_armor.jem')
-    json.dump(merged, open(out, 'w', encoding='utf-8'), indent=1)
-    print('EMF 1.21.8:', os.path.relpath(out, root), [m['part'] for m in merged['models']])
+    for target, slots in TARGETS.items():
+        jems = [json.load(open(p, encoding='utf-8'))
+                for p in (os.path.join(cem, '%s_%s.jem' % (prefix, s)) for s in slots) if os.path.exists(p)]
+        if not jems:
+            continue
+        parts = {}
+        for m in (m for j in jems for m in j['models']):
+            if m['part'] in parts:                  # shared part (root): keep one copy, join submodels and boxes
+                p = parts[m['part']]
+                p['submodels'] = p.get('submodels', []) + m.get('submodels', [])
+                p['boxes'] = p.get('boxes', []) + m.get('boxes', [])
+                if m.get('animations') and m['animations'] != p.get('animations'):
+                    p['animations'] = p.get('animations', []) + m['animations']
+            else:
+                parts[m['part']] = dict(m)
+        merged = {'credit': 'zkraft - 1.21.8 %s (merged from %s)' % (target, ', '.join(slots)),
+                  'textureSize': jems[0]['textureSize'], 'models': list(parts.values())}
+        out = os.path.join(cem, '%s_%s.jem' % (prefix, target))
+        json.dump(merged, open(out, 'w', encoding='utf-8'), indent=1)
+        print('EMF 1.21.8:', os.path.relpath(out, root), [m['part'] for m in merged['models']])
