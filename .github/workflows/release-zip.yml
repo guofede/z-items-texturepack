@@ -19,6 +19,14 @@ jobs:
       - name: Build zip
         run: zip -r -q zkraft.zip pack.mcmeta pack.png assets overlay_1_21_9
 
+      # 1.21.8 (e.g. NoRisk Client): no EMF models (glitched cubes there) and no overlay entry in pack.mcmeta
+      - name: Build 1.21.8 zip
+        run: |
+          mkdir build_1218
+          cp -r pack.png assets build_1218/
+          jq 'del(.overlays)' pack.mcmeta > build_1218/pack.mcmeta
+          cd build_1218 && zip -r -q ../zkraft-1.21.8.zip pack.mcmeta pack.png assets
+
       - name: Publish release asset
         env:
           GH_TOKEN: ${{ github.token }}
@@ -26,4 +34,4 @@ jobs:
           gh release view pack >/dev/null 2>&1 || \
             gh release create pack --title "zKraft pack" \
               --notes "Scarica zkraft.zip e mettilo così com'è in .minecraft/resourcepacks/ (non serve estrarlo)."
-          gh release upload pack zkraft.zip --clobber
+          gh release upload pack zkraft.zip zkraft-1.21.8.zip --clobber
