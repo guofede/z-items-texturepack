@@ -15,7 +15,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 |---|---|---|
 | [CIT Resewn](https://modrinth.com/mod/cit-resewn) (continuation fork per 1.21.11) | Texture e modelli degli item in base al nome | Sì |
 | [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse indossata | No (senza, la corazza resta piatta) |
-| [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos e Soffio Vitale | No (senza, il trim si vede sopra l'armatura) |
+| [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos, Soffio Vitale e Cleopatra | No (senza, il trim si vede sopra l'armatura) |
 
 ## Installazione
 
@@ -53,7 +53,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Gambali di Dream | leather_leggings |
 | Corazza / Gambali / Stivali Eclipse | netherite (corazza, gambali, stivali) |
 | Corazza di Gellir | netherite_chestplate |
-| Stivali di Cleopatra | golden_boots |
+| Corazza / Gambali / Stivali di Cleopatra | oro (corazza, gambali, stivali) |
 | Corazza / Stivali di Caligola | golden_chestplate / golden_boots |
 | Gambali di Caligola | netherite_leggings |
 | Corazza / Stivali di Anubi | netherite_chestplate / netherite_boots |
