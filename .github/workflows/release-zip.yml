@@ -25,6 +25,7 @@ jobs:
           mkdir build_1218
           cp -r pack.png assets build_1218/
           jq 'del(.overlays)' pack.mcmeta > build_1218/pack.mcmeta
+          python3 .github/scripts/build_1218.py build_1218
           cd build_1218 && zip -r -q ../zkraft-1.21.8.zip pack.mcmeta pack.png assets
 
       - name: Publish release asset
