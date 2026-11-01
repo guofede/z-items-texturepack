@@ -9,7 +9,7 @@ import os
 import re
 import sys
 
-SKIP = ('befana_helmet',)          # its overlay is the EMF hat atlas, not an armor texture
+SKIP = ()                          # befana_helmet too: its overlay is the EMF hat atlas, so it must be on the base
 
 root = sys.argv[1]
 changed = 0
