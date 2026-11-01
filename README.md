@@ -122,7 +122,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Ramo della Vita (3D, animato) | wooden_hoe |
 | Bastoncino di Zucchero, Big White Wand, Senza Tempo per Spiegare | blaze_rod |
 | Spara Ghiaccio | diamond_hoe |
-| Spara Ragnatele, Mangia Vuoto, Passatempo Cristallino | fishing_rod |
+| Spara Ragnatele, Mangia Vuoto, Passatempo Cristallino, Lancia Marina | fishing_rod |
 | Ignis Rose | wither_rose |
 | The Big Black | black_dye |
 | Artigli di Valtiel | netherite_scrap |
