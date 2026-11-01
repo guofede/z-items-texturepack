@@ -147,6 +147,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Camera | spyglass |
 | Piccone di Enlin | golden_pickaxe |
 | Pietracciaio | iron_ingot |
+| Pietradura | prismarine_shard |
 | Pietralama | ghast_tear |
 | Chiave Artefatto | cyan_dye, prismarine_shard |
 | Chiave Claim | yellow_dye, prismarine_shard |
