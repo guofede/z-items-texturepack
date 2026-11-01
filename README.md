@@ -24,8 +24,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
    (è sempre l'ultima versione).
    Su **1.21.8** scarica invece
    **[zkraft-1.21.8.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft-1.21.8.zip)**:
-   è lo stesso pack adattato a CitFancy (le armature di cuoio possono avere una leggera tinta del cuoio)
-   e senza i modelli 3D EMF (spuntoni Eclipse, cappello della Befana).
+   è lo stesso pack adattato a CitFancy (le armature di cuoio possono avere una leggera tinta del cuoio).
 2. Metti lo ZIP **così com'è** in `.minecraft/resourcepacks/`: non serve estrarlo.
 3. In gioco: **Opzioni → Pacchetti risorse** e attiva *zkraft.zip*.
    Se usi altri pack che cambiano armi o armature, metti zKraft **sopra** di loro.
