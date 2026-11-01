@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "./soffio_empty_icon",
+    "layer1": "./soffio_chestplate"
+  }
+}
