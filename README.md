@@ -15,7 +15,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Mod | A cosa serve | Obbligatoria |
 |---|---|---|
 | [CIT Resewn](https://modrinth.com/mod/cit-resewn) (continuation fork per 1.21.11) | Texture e modelli degli item in base al nome | Sì |
-| [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse e Cappello della Befana 3D indossati | No (senza, la corazza resta piatta e il cappello diventa un cappello piatto sull'elmo) |
+| [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse indossata | No (senza, la corazza resta piatta) |
 | [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos, Soffio Vitale, Cleopatra, Pyramid, Infermiera, Valtiel e i set romani (Gladiatore, Legionario, Centurione, Tribuno, Legatus, Imperatore) | No (senza, il trim si vede sopra l'armatura) |
 
 ## Installazione
