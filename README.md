@@ -93,7 +93,7 @@ Su 1.21.8 non usare la fork di CIT Resewn per 1.21.8: mostra blocchi glitchati.
 | Corazza / Gambali / Stivali dell'Imperatore | oro (corazza, gambali, stivali) |
 | Cappello della Befana (3D anche indossato, con EMF) | leather_helmet |
 | Tunica della Befana | leather_chestplate |
-| Ali del Drago, Ali di Eolo, Ali di Odino | elytra |
+| Ali del Drago, Ali di Eolo, Ali di Odino, Ali di Cupido | elytra |
 
 ### Spade, pugnali e spadoni
 
