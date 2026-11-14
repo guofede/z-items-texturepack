@@ -1,16 +1,16 @@
 {
     "pack": {
         "pack_format": 64,
-        "supported_formats": [64, 75],
+        "supported_formats": [64, 97],
         "min_format": 64,
-        "max_format": 75,
+        "max_format": 97,
         "description": "Zkraft - Texture pack by Haobon"
     },
     "overlays": {
         "entries": [
             {
                 "min_format": 69,
-                "max_format": 75,
+                "max_format": 97,
                 "directory": "overlay_1_21_9"
             }
         ]

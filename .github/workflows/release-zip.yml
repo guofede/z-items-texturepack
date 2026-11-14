@@ -37,4 +37,4 @@ jobs:
           gh release view pack >/dev/null 2>&1 || \
             gh release create pack --title "zKraft pack" \
               --notes "Scarica zkraft.zip e mettilo così com'è in .minecraft/resourcepacks/ (non serve estrarlo)."
-          gh release upload pack zkraft.zip zkraft-1.21.8.zip --clobber
+          gh release upload pack zkraft.zip zkraft-1.21.8.zip mods/citresewn-states-1.0.0-26.3.jar --clobber

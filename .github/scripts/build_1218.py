@@ -26,10 +26,19 @@ for folder, _, files in os.walk(os.path.join(root, 'assets', 'minecraft', 'optif
         for layer, art in re.findall(r'^texture\.leather_layer_(\d)_overlay=(.+)$', text, re.M):
             new = re.sub(r'^(texture\.leather_layer_%s=)(.*empty.*)$' % layer, lambda m: m.group(1) + art.strip(),
                           new, flags=re.M)
+        # Bows/crossbows: the CIT Resewn fork needs model= + model.bow_pulling_N (1.21.11) and model.trident_throwing
+        # (26.3); CitFancy keeps the OptiFine texture.bow_* keys, so drop the model lines and give it a base texture.
+        standby = re.search(r'^texture\.(?:cross)?bow_standby=(.+?)(?:\.png)?\s*$', new, re.M)
+        if standby:
+            new = re.sub(r'^model[.=].*\n?', '', new, flags=re.M)
+            if not re.search(r'^texture=', new, re.M):
+                new = new.rstrip('\n') + '\ntexture=' + standby.group(1) + '\n'
+        if 'items=trident' not in new:
+            new = re.sub(r'^model\.trident_throwing=.*\n?', '', new, flags=re.M)
         if new != text:
             open(path, 'w', encoding='utf-8', newline='').write(new)
             changed += 1
-            print('1.21.8 leather fix:', os.path.relpath(path, root))
+            print('1.21.8 fix:', os.path.relpath(path, root))
 print(changed, 'files changed')
 
 # Befana hat textures + their ETF variant file live in textures/zkraft/befana/, outside optifine/cit: CitFancy reads
