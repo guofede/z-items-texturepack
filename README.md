@@ -132,7 +132,7 @@ Su 1.21.8 non usare la fork di CIT Resewn per 1.21.8: mostra blocchi glitchati.
 
 ### Scudi
 
-Custode della Cripta, Egida del Colosso, Presagio Rosso, Scudo del Sole Infranto, Scudo della Legione, Scudo di Cleopatra,
+Custode della Cripta, Egida del Colosso, Guardia Reale, Presagio Rosso, Scudo del Sole Infranto, Scudo della Legione, Scudo di Cleopatra,
 Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 
 ### Staffe e armi speciali
@@ -158,6 +158,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Talismano della Difesa | shield |
 | Talismano delle tre virtù | respawn_anchor |
 | Emblema del Guaritore (animato) | emerald |
+| Lanterna Maledetta (animata) | lantern |
 | Radio Disturbata | recovery_compass |
 | Radio di Temu | compass |
 | Camera | spyglass |
