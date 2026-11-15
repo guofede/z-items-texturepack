@@ -16,6 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Stops the release when a CIT points at a missing file, a wrong item id, a broken model ...
+      - name: Check pack
+        run: python3 .github/scripts/check_pack.py
+
       - name: Build zip
         run: zip -r -q zkraft.zip pack.mcmeta pack.png assets overlay_1_21_9
 
@@ -28,6 +32,7 @@ jobs:
           cp -r overlay_1_21_9/assets build_1218/
           jq 'del(.overlays)' pack.mcmeta > build_1218/pack.mcmeta
           python3 .github/scripts/build_1218.py build_1218
+          python3 .github/scripts/check_pack.py build_1218
           cd build_1218 && zip -r -q ../zkraft-1.21.8.zip pack.mcmeta pack.png assets
 
       - name: Publish release asset
