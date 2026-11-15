@@ -15,7 +15,7 @@ texture dedicate, modelli 3D e animazioni. Gli item cambiano aspetto in base al 
 | Mod | A cosa serve | Obbligatoria |
 |---|---|---|
 | [CIT Resewn fork](https://modrinth.com/mod/cit-resewn-fork) su 1.21.11 e 26.3, [CitFancy](https://modrinth.com/mod/citfancy) su 1.21.8 | Texture e modelli degli item in base al nome | Sì |
-| CIT Resewn States ([26.3](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.1.1-26.3.jar), [1.21.11](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.1.1-1.21.11.jar)) | Canna da pesca lanciata su tutte e due; su 26.3 anche archi tesi, balestre cariche (freccia/razzo) e scudi in parata, che la fork per 26.3 da sola non gestisce | No (senza, la canna lanciata resta normale; su 26.3 archi e balestre mostrano un solo fotogramma mentre li usi e la balestra carica resta normale) |
+| CIT Resewn States ([26.3](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.2.0-26.3.jar), [1.21.11](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.2.0-1.21.11.jar)) | Canna da pesca lanciata e modelli 3D delle teste indossate (es. Wither Mask) su tutte e due; su 26.3 anche archi tesi, balestre cariche (freccia/razzo) e scudi in parata, che la fork per 26.3 da sola non gestisce | No (senza, la canna lanciata resta normale e le teste indossate mostrano la skin; su 26.3 archi e balestre mostrano un solo fotogramma mentre li usi e la balestra carica resta normale) |
 | [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Spuntoni 3D della Corazza Eclipse e Cappello della Befana 3D indossati | No (senza, la corazza resta piatta e il cappello diventa un cappello piatto sull'elmo) |
 | [Variants CIT](https://modrinth.com/mod/variants-cit) | Nasconde i trim sui set Eclipse, Dream, Aragon, Caligola, Anubi, Convergenza, Colosso, Caos, Soffio Vitale, Cleopatra, Pyramid, Infermiera, Valtiel e i set romani (Gladiatore, Legionario, Centurione, Tribuno, Legatus, Imperatore) e Gellir | No (senza, il trim si vede sopra l'armatura) |
 
@@ -25,8 +25,8 @@ Il pack è stato provato in gioco con queste versioni esatte delle mod:
 
 | Minecraft | ZIP | Mod |
 |---|---|---|
-| 1.21.11 | `zkraft.zip` | [CIT Resewn fork 1.0](https://modrinth.com/mod/cit-resewn-fork/version/3bjfw6Xx), [Variants CIT 5.5.0+1.21.9](https://modrinth.com/mod/variants-cit/version/tSXo271z), [CIT Resewn States 1.1.1](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.1.1-1.21.11.jar), [EMF 3.2.4](https://modrinth.com/mod/entity-model-features/version/CWZPvNbk), [ETF 7.1](https://modrinth.com/mod/entitytexturefeatures/version/rAQimlSn) |
-| 26.3 | `zkraft.zip` | [CIT Resewn fork 1.2.2-fork.14+26.3](https://modrinth.com/mod/cit-resewn-fork/version/sZ4LgUrM), [CIT Resewn States 1.1.1](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.1.1-26.3.jar), [EMF 3.3.12](https://modrinth.com/mod/entity-model-features/version/vF6qLXsA), [ETF 7.2.6](https://modrinth.com/mod/entitytexturefeatures/version/OOEycXyN) (Variants CIT non ancora provata su 26.3) |
+| 1.21.11 | `zkraft.zip` | [CIT Resewn fork 1.0](https://modrinth.com/mod/cit-resewn-fork/version/3bjfw6Xx), [Variants CIT 5.5.0+1.21.9](https://modrinth.com/mod/variants-cit/version/tSXo271z), [CIT Resewn States 1.2.0](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.2.0-1.21.11.jar), [EMF 3.2.4](https://modrinth.com/mod/entity-model-features/version/CWZPvNbk), [ETF 7.1](https://modrinth.com/mod/entitytexturefeatures/version/rAQimlSn) |
+| 26.3 | `zkraft.zip` | [CIT Resewn fork 1.2.2-fork.14+26.3](https://modrinth.com/mod/cit-resewn-fork/version/sZ4LgUrM), [CIT Resewn States 1.2.0](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.2.0-26.3.jar), [EMF 3.3.12](https://modrinth.com/mod/entity-model-features/version/vF6qLXsA), [ETF 7.2.6](https://modrinth.com/mod/entitytexturefeatures/version/OOEycXyN) (Variants CIT non ancora provata su 26.3) |
 | 1.21.8 | `zkraft-1.21.8.zip` | [CitFancy v2-1.21.8](https://modrinth.com/mod/citfancy/version/l2XKjWY1), [EMF 3.2.4 (1.21.6–1.21.8)](https://modrinth.com/mod/entity-model-features/version/rPlvbW7d), [ETF 7.1 (1.21.6–1.21.8)](https://modrinth.com/mod/entitytexturefeatures/version/LhiABkEc) |
 
 Su 1.21.8 non usare la fork di CIT Resewn per 1.21.8: mostra blocchi glitchati.
@@ -36,8 +36,8 @@ Su 1.21.8 non usare la fork di CIT Resewn per 1.21.8: mostra blocchi glitchati.
 1. Scarica **[zkraft.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft.zip)**
    (è sempre l'ultima versione, vale per 1.21.11 e 26.3).
    Metti anche nella cartella `mods` la mod CIT Resewn States della tua versione:
-   **[citresewn-states-1.1.1-26.3.jar](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.1.1-26.3.jar)** su 26.3,
-   **[citresewn-states-1.1.1-1.21.11.jar](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.1.1-1.21.11.jar)** su 1.21.11.
+   **[citresewn-states-1.2.0-26.3.jar](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.2.0-26.3.jar)** su 26.3,
+   **[citresewn-states-1.2.0-1.21.11.jar](https://github.com/guofede/z-items-texturepack/releases/download/pack/citresewn-states-1.2.0-1.21.11.jar)** su 1.21.11.
    Su **1.21.8** scarica invece
    **[zkraft-1.21.8.zip](https://github.com/guofede/z-items-texturepack/releases/download/pack/zkraft-1.21.8.zip)**:
    è lo stesso pack adattato a CitFancy (le armature di cuoio possono avere una leggera tinta del cuoio).
@@ -159,6 +159,7 @@ Scutum Aegis, Sepolcro Vivente — tutti su `shield`.
 | Talismano delle tre virtù | respawn_anchor |
 | Emblema del Guaritore (animato) | emerald |
 | Lanterna Maledetta (animata) | lantern |
+| Wither Mask (3D, si vede indossata con CIT Resewn States) | player_head |
 | Radio Disturbata | recovery_compass |
 | Radio di Temu | compass |
 | Camera | spyglass |
